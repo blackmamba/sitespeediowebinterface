@@ -33,7 +33,7 @@
                 // Outputs all the result of shellcommand "ls", and returns
                 // the last output line into $last_line. Stores the return value
                 // of the shell command in $retval.
-                $last_line = system(escapeshellcmd('./257homebrew/bin/sitespeed.io'), $retval);
+                $last_line = system(escapeshellcmd('./257sitespeedio/bin/sitespeed.io'), $retval);
                 // Printing additional info
                 echo '
                 </pre>
